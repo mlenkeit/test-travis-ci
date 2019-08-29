@@ -3,3 +3,4 @@ before_install:
   - sudo apt-get install -y zsh curl git
 script:
   - ls -al /usr/bin
+  - /usr/bin/zsh -c "ls /usr/bin
