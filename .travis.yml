@@ -1,7 +1,9 @@
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y zsh curl git
+  - sudo apt-get install -y zsh bash curl git
 script:
 #  - ls -al /usr/bin
   - which zsh
+  - which bash
   - /usr/bin/zsh -c "ls /usr/bin"
+  - /usr/bin/bash -c "ls /usr/bin"
