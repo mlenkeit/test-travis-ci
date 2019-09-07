@@ -1,6 +1,6 @@
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y zsh bash curl git
+  - sudo apt-get install -y zsh bash
 script:
 #  - ls -al /usr/bin
   - which zsh
